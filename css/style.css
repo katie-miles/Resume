@@ -1,14 +1,22 @@
 body{
   background: #E5E5E5;
   color:#414E5A;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 header{
   background:#DEDEDE;
-  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
+
 header div{
   width:1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .mainContainer{
@@ -17,9 +25,49 @@ header div{
   flex-direction: row;
   width:1000px;
   margin:0 auto;
+  justify-content: space-between;
 }
 
 .leftSide{
   background: #DEDEDE;
+  width:30%;
+  padding-left: 10px;
+}
+
+.name{
+  font-size: 2.2em;
+}
+
+.subtitle{
+  font-size: 1.8em;
+  margin-bottom:5px;
+}
+
+
+ul{
+  /**width:90%;**/
+  padding-left: 5px;
+}
+
+li{
+  padding-bottom:5px;
+  display: flex;
+  justify-content: flex-start;
+  list-style:none;
+}
+
+li img{
+  margin-right:5px;
+}
+
+.liText{
+  font-size: 1.2em;
+}
+
+hr{
   width:50%;
+  margin-left: 0;
+}
+.rightSide{
+width:50%;
 }
