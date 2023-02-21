@@ -1,0 +1,25 @@
+body{
+  background: #E5E5E5;
+  color:#414E5A;
+}
+
+header{
+  background:#DEDEDE;
+  margin:0 auto;
+}
+header div{
+  width:1000px;
+}
+
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width:1000px;
+  margin:0 auto;
+}
+
+.leftSide{
+  background: #DEDEDE;
+  width:50%;
+}
